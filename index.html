@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GST Invoice Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>GST Invoice Generator</h2>
+
+<input id="customer" placeholder="Customer Name">
+
+<div id="items">
+  <input placeholder="Item Name" class="name">
+  <input placeholder="Price" class="price" type="number">
+  <input placeholder="Qty" class="qty" type="number">
+</div>
+
+<button onclick="addItem()">Add Item</button>
+
+<input id="gst" placeholder="GST %" type="number">
+
+<button onclick="generate()">Generate Invoice</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
